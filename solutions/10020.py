@@ -50,7 +50,7 @@ for test in range(0, tests):
         
         solution.append(best_interval)
         max_r = best_interval[1]
-        left = right + 1
+        left = right
 
     # Print empty line between test cases
     if test > 0:
